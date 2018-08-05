@@ -1,0 +1,31 @@
+{
+  "name": "react-cache2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js start",
+    "dev": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56",
+    "@babel/plugin-transform-typeof-symbol": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/register": "^7.0.0-beta.56",
+    "@material-ui/core": "^1.4.3",
+    "@material-ui/icons": "^2.0.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "react": "^16.4.2",
+    "react-arcgis": "^3.3.1",
+    "react-dom": "^16.4.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/preset-react": "^7.0.0-beta.56"
+  }
+}
